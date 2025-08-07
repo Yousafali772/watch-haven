@@ -1,0 +1,71 @@
+#carouselExampleAutoplaying {
+  height: 80vh;
+  overflow: auto;
+}
+.watch-haven-img{
+  max-width: 14%;
+  fill: white;
+}
+
+.carousel-inner {
+  height: 100%;
+}
+
+.carousel-item {
+  height: 100%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card {
+  width: 19rem;
+}
+
+.form-control {
+  height: 50px;
+}
+
+.footer-descp {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* max-width: 100%; */
+}
+
+.p {
+  max-width: 50%;
+}
+
+.nav,
+.icon {
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+}
+
+/* .p{
+  width:40px;
+  display: flex;
+  justify-content: center;
+} */
+@media (max-width: 1020px) and (min-width : 992px) {
+  .search-input {
+    width: 193px;
+  }
+}
+
+@media(max-width:1060px) {
+
+  img {
+    width: 100%;
+    height: auto;
+    /* max-height: auto; */
+    object-fit: fill;
+  }
+}
