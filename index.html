@@ -2,587 +2,635 @@
 
 <!DOCTYPE html>
 
-
 <!-- Webpage start  -->
-
 
 <html lang="en">
 
+  <!-- head code start  -->
 
-<!-- head code start  -->
+  <head>
 
+    <!-- Meta code start  -->
 
-<head>
+    <meta charset="utf-8" />
 
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- Meta code start  -->
+    <!-- Meta code end  -->
 
+    <!-- Title & Link code start  -->
 
-  <meta charset="utf-8" />
+    <title>Watch Heaven</title>
 
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous" />
 
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./assets/media.css" />
+    <link rel="shortcut icon" href="./assets/img/Watch Haven.jpg"
+      type="image/x-icon">
+    <!-- Title & Link code end -->
 
+  </head>
 
-  <!-- Meta code end  -->
+  <!-- head code end  -->
 
+  <body>
 
-  <!-- Title & Link code start  -->
+    <!-- main code start  -->
 
+    <div id="webpage">
 
-  <title>Watch Heaven</title>
+      <!-- Navbar code start  -->
 
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand fs-4" href="index.html">
+            <img src="./assets/img/Watch Haven.svg" alt="No image"
+              class="img-fluid watch-haven-img">
+            Watch Haven
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-lg-4 gap-0">
+              <li class="nav-item">
+                <a class="nav-link d-flex align-items-center active"
+                  aria-current="page" href="index.html"><svg
+                    xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-house me-1"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z" />
+                  </svg>
+                  Home
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link d-flex align-items-center" href="#colection"
+                  role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor"
+                    class="bi bi-collection me-1" viewBox="0 0 16 16">
+                    <path
+                      d="M2.5 3.5a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1zm2-2a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1zM0 13a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 16 13V6a1.5 1.5 0 0 0-1.5-1.5h-13A1.5 1.5 0 0 0 0 6zm1.5.5A.5.5 0 0 1 1 13V6a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5z" />
+                  </svg>
+                  Collections
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#Luxury">Luxury
+                      Watches</a></li>
+                  <li><a class="dropdown-item" href="#Smart">Smart
+                      Watches</a></li>
+                  <li><a class="dropdown-item" href="#Sport">Sport
+                      Watches</a></li>
+                  <li><a class="dropdown-item" href="#Casual">Casual
+                      Watches</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link d-flex align-items-center" href="#about">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                    fill="currentColor"
+                    class="bi bi-info-square me-1" viewBox="0 0 16 16">
+                    <path
+                      d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z" />
+                    <path
+                      d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
+                  </svg>
+                  About
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link d-flex align-items-center" href="#contact">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor"
+                    class="bi bi-person-lines-fill me-1" viewBox="0 0 16 16">
+                    <path
+                      d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5m.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1z" />
+                  </svg>
+                  Contact Us
+                </a>
+              </li>
+            </ul>
+            <!-- <form class="d-flex" role="search">
+              <input class="form-control search-input me-1" type="search"
+                placeholder="Search" aria-label="Search" />
+              <button class="btn btn-outline-info d-flex align-items-center"
+                type="submit">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                  fill="currentColor"
+                  class="bi bi-search me-1" viewBox="0 0 16 16">
+                  <path
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                </svg>
+                Search
+              </button>
+            </form> -->
+            <div class="d-flex align-items-center ms-lg-1 mt-2 mt-lg-0">
+              <button class="btn me-1" type="button">
+                <a href="sign.html" target="_blank"
+                  class="text-decoration-none">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22"
+                    fill="currentColor"
+                    class="bi bi-person-add" viewBox="0 0 16 16">
+                    <path
+                      d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m.5-5v1h1a.5.5 0 0 1 0 1h-1v1a.5.5 0 0 1-1 0v-1h-1a.5.5 0 0 1 0-1h1v-1a.5.5 0 0 1 1 0m-2-6a3 3 0 1 1-6 0 3 3 0 0 1 6 0M8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4" />
+                    <path
+                      d="M8.256 14a4.5 4.5 0 0 1-.229-1.004H3c.001-.246.154-.986.832-1.664C4.484 10.68 5.711 10 8 10q.39 0 .74.025c.226-.341.496-.65.804-.918Q8.844 9.002 8 9c-5 0-6 3-6 4s1 1 1 1z" />
+                  </svg>
+                </a>
+              </button>
+              <button class="btn" type="button">
+                <a href="login.html" target="_blank"
+                  class="text-decoration-none">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22"
+                    fill="currentColor"
+                    class="bi bi-box-arrow-in-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                      d="M10 3.5a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 1 1 0v2A1.5 1.5 0 0 1 9.5 14h-8A1.5 1.5 0 0 1 0 12.5v-9A1.5 1.5 0 0 1 1.5 2h8A1.5 1.5 0 0 1 11 3.5v2a.5.5 0 0 1-1 0z" />
+                    <path fill-rule="evenodd"
+                      d="M4.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H14.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708z" />
+                  </svg>
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+      <!-- Navbar code end  -->
 
+      <!-- Heading start  -->
 
-  <link rel="stylesheet" href="./assets/media.css" />
-  <link rel="shortcut icon" href="./assets/img/Watch Haven.jpg" type="image/x-icon">
-  <!-- Title & Link code end -->
+      <div class="container mt-3">
+        <div class="text-center">
+          <div class="h2">
+            Welcome to Watch Heaven: Where Time Meets Elegance!
+          </div>
+          <div class="h4">Discover Your Perfect Watch Today!</div>
+          <p>
+            At Watch Heaven, we believe that a watch is more than just an
+            accessory—it's a statement of style, precision, and personality.
+            Whether you're looking for a classic design, a modern smartwatch, or
+            a luxury timepiece, we have something for everyone.
+          </p>
+        </div>
+      </div>
 
-</head>
+      <!-- Heading end  -->
 
+      <!-- slide page start -->
 
-<!-- head code end  -->
-
-
-<body>
-
-
-  <!-- main code start  -->
-
-
-  <div id="webpage">
-
-
-    <!-- Navbar code start  -->
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand fs-4" href="index.html">
-          <img src="./assets/img/Watch Haven.svg" alt="No image" class="img-fluid watch-haven-img">
-          Watch Haven
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+      <div id="carouselExampleIndicators" class="carousel slide"
+        data-bs-ride="carousel" data-bs-interval="1500">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/img/pixelcut-export.png" class="d-block w-100"
+              alt="No image" />
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/pixelcut-export.png" class="d-block w-100"
+              alt="No image" />
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/pixelcut-export.png" class="d-block w-100"
+              alt="No image" />
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-lg-4 gap-0">
-            <li class="nav-item">
-              <a class="nav-link d-flex align-items-center active" aria-current="page" href="index.html"><svg
-                  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house me-1"
+        <button class="carousel-control-next" type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- slider page end -->
+
+      <!-- Collection page start  -->
+
+      <div class="container text-center">
+        <!-- Luxury Watches cart start  -->
+
+        <div id="Luxury">
+          <div class="text-center">
+            <div class="h1">Luxury Watch</div>
+          </div>
+          <div
+            class="container-fluid d-flex flex-wrap justify-content-center gap-4">
+            <div class="card" style="width: 18rem">
+              <img src="./assets/img/luxury watch 1.jpeg" class="card-img-top"
+                alt="No Image" />
+              <div class="card-body">
+                <h5 class="card-title">Luxury Watch</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem">
+              <img src="./assets/img/luxury watch 1.jpeg" class="card-img-top"
+                alt="No Image" />
+              <div class="card-body">
+                <h5 class="card-title">Luxury Watch</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem">
+              <img src="./assets/img/luxury watch 1.jpeg" class="card-img-top"
+                alt="No Image" />
+              <div class="card-body">
+                <h5 class="card-title">Luxury Watch</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem">
+              <img src="./assets/img/luxury watch 1.jpeg" class="card-img-top"
+                alt="No Image" />
+              <div class="card-body">
+                <h5 class="card-title">Luxury Watch</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Luxury Watches cart end  -->
+
+        <!-- Smart Watches start  -->
+
+        <div id="Smart">
+          <div class="text-center">
+            <div class="h1">Smart Watches</div>
+          </div>
+          <div
+            class="container-fluid d-flex flex-wrap justify-content-center gap-4">
+            <div class="card" style="width: 18rem">
+              <img src="./assets/img/smart watch.jpeg" class="card-img-top"
+                alt="No Image" />
+              <div class="card-body">
+                <h5 class="card-title">Smart Watches</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem">
+              <img src="./assets/img/smart watch.jpeg" class="card-img-top"
+                alt="No Image" />
+              <div class="card-body">
+                <h5 class="card-title">Smart Watches</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem">
+              <img src="./assets/img/smart watch.jpeg" class="card-img-top"
+                alt="No Image" />
+              <div class="card-body">
+                <h5 class="card-title">Smart Watches</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem">
+              <img src="./assets/img/smart watch.jpeg" class="card-img-top"
+                alt="No Image" />
+              <div class="card-body">
+                <h5 class="card-title">Smart Watches</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Smart Watches end  -->
+
+        <!-- Sport Watches start  -->
+
+        <div id="Sport">
+          <div class="text-center">
+            <div class="h1">Sport Watches</div>
+          </div>
+          <div
+            class="container-fluid d-flex flex-wrap justify-content-center gap-4">
+            <div class="card" style="width: 18rem">
+              <img src="./assets/img/sport watch.jpeg" class="card-img-top"
+                alt="No Image" />
+              <div class="card-body">
+                <h5 class="card-title">Sport Watches</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem">
+              <img src="./assets/img/sport watch.jpeg" class="card-img-top"
+                alt="No Image" />
+              <div class="card-body">
+                <h5 class="card-title">Sport Watches</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem">
+              <img src="./assets/img/sport watch.jpeg" class="card-img-top"
+                alt="No Image" />
+              <div class="card-body">
+                <h5 class="card-title">Sport Watches</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem">
+              <img src="./assets/img/sport watch.jpeg" class="card-img-top"
+                alt="No Image" />
+              <div class="card-body">
+                <h5 class="card-title">Sport Watches</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sport Watches end  -->
+
+        <!-- Casual Watches start  -->
+
+        <div id="Casual">
+          <div class="text-center">
+            <div class="h1">Casual Watch</div>
+          </div>
+          <div
+            class="container-fluid d-flex flex-wrap justify-content-center gap-4">
+            <div class="card" style="width: 18rem">
+              <img src="./assets/img/casual watch.jpeg" class="card-img-top"
+                alt="No Image" />
+              <div class="card-body">
+                <h5 class="card-title">Casual Watch</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem">
+              <img src="./assets/img/casual watch.jpeg" class="card-img-top"
+                alt="No Image" />
+              <div class="card-body">
+                <h5 class="card-title">Casual Watch</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem">
+              <img src="./assets/img/casual watch.jpeg" class="card-img-top"
+                alt="No Image" />
+              <div class="card-body">
+                <h5 class="card-title">Casual Watch</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem">
+              <img src="./assets/img/casual watch.jpeg" class="card-img-top"
+                alt="No Image" />
+              <div class="card-body">
+                <h5 class="card-title">Casual Watch</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Casual Watches end  -->
+      </div>
+      <!-- Collection page end  -->
+
+      <!-- About & Contact -->
+
+      <div class="container">
+        <!-- About code start  -->
+
+        <div class="d-flex flex-column" id="about">
+          <div class="h1 mt-3 text-center">About us</div>
+          <div class="para text-center">
+            Welcome to Watch Heaven! We specialize in providing high-quality,
+            stylish, and affordable watches for every
+            occasion. Our mission is to deliver the perfect blend of
+            craftsmanship and design, ensuring that each
+            timepiece
+            is
+            a work of art.
+          </div>
+        </div>
+
+        <!-- About code end  -->
+
+        <!-- Contact us code Start  -->
+
+        <div id="contact" class="d-flex justify-content-center">
+          <div class="form w-75 ">
+            <div class=" h1 text-center ">
+              Contact Us
+            </div>
+            <form action="#">
+              <div class="input-group mb-3 ">
+                <span class="input-group-text" id="basic-addon1">@</span>
+                <input type="text" class="form-control" placeholder="Username"
+                  aria-label="Username"
+                  aria-describedby="basic-addon1">
+              </div>
+
+              <div class="input-group mb-3">
+                <input type="text" class="form-control"
+                  placeholder="Recipient's username"
+                  aria-label="Recipient's username"
+                  aria-describedby="basic-addon2">
+                <span class="input-group-text"
+                  id="basic-addon2">@example.com</span>
+              </div>
+              <div class="form-floating">
+                <textarea class="form-control"
+                  placeholder="Leave a comment here" id="floatingTextarea2"
+                  style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Comments</label>
+                <div class="d-grid  col-2 mt-3 mb-3">
+                  <button class="btn btn-primary" type="button">Submit</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact us code End  -->
+
+    </div>
+
+    <!-- main code end  -->
+    <!-- footer code start -->
+
+    <footer class="text-bg-dark">
+      <div class="container-fluid w-100">
+        <div class="footer-descp text-center">
+          <div class="h2 text-white">Watch Heaven</div>
+          <div class="p text-white">
+            We provide high-quality, stylish, and affordable watches for every
+            occasion. Explore our collection and
+            find your perfect timepiece. With exceptional craftsmanship and
+            timeless designs, our watches combine
+            elegance and reliability to suit your personal style.
+          </div>
+          <ul class="icon mt-3 list-unstyled d-flex justify-content-center">
+            <li class="mx-2"><a href="#"
+                class="text-decoration-none text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                  fill="currentColor" class="bi bi-facebook"
                   viewBox="0 0 16 16">
                   <path
-                    d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z" />
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
                 </svg>
-                Home
+              </a></li>
+            <li class="mx-2"><a href="#"
+                class="text-decoration-none text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                  fill="currentColor" class="bi bi-twitter-x"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+                </svg>
+              </a></li>
+            <li class="mx-2"><a href="#"
+                class="text-decoration-none text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                  fill="currentColor" class="bi bi-whatsapp"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+                </svg>
+              </a></li>
+            <li class="mx-2"><a href="#"
+                class="text-decoration-none text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                  fill="currentColor" class="bi bi-instagram"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.598-.92c-.11-.282-.24-.705-.275-1.485-.039-.843-.046-1.096-.046-3.232s.007-2.389.046-3.232c.035-.78.166-1.203.275-1.485.145-.373.319-.64.599-.92.281-.28.546-.453.92-.598.281-.11.705-.24 1.485-.275.843-.039 1.096-.046 3.232-.046zM8 3.272a4.727 4.727 0 1 0 0 9.454 4.727 4.727 0 0 0 0-9.454zm0 8.125a3.398 3.398 0 1 1 0-6.796 3.398 3.398 0 0 1 0 6.796zM12.023 3.977a1.072 1.072 0 1 0 0-2.144 1.072 1.072 0 0 0 0 2.144z" />
+                </svg>
               </a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link d-flex align-items-center" href="#colection" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                  class="bi bi-collection me-1" viewBox="0 0 16 16">
+            <li class="mx-2"><a href="#"
+                class="text-decoration-none text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                  fill="currentColor" class="bi bi-linkedin"
+                  viewBox="0 0 16 16">
                   <path
-                    d="M2.5 3.5a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1zm2-2a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1zM0 13a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 16 13V6a1.5 1.5 0 0 0-1.5-1.5h-13A1.5 1.5 0 0 0 0 6zm1.5.5A.5.5 0 0 1 1 13V6a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5z" />
+                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
                 </svg>
-                Collections
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#Luxury">Luxury Watches</a></li>
-                <li><a class="dropdown-item" href="#Smart">Smart Watches</a></li>
-                <li><a class="dropdown-item" href="#Sport">Sport Watches</a></li>
-                <li><a class="dropdown-item" href="#Casual">Casual Watches</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link d-flex align-items-center" href="#about">
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
-                  class="bi bi-info-square me-1" viewBox="0 0 16 16">
-                  <path
-                    d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z" />
-                  <path
-                    d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
-                </svg>
-                About
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link d-flex align-items-center" href="#contact">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                  class="bi bi-person-lines-fill me-1" viewBox="0 0 16 16">
-                  <path
-                    d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5m.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1z" />
-                </svg>
-                Contact Us
               </a>
             </li>
           </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control search-input me-1" type="search" placeholder="Search" aria-label="Search" />
-            <button class="btn btn-outline-info d-flex align-items-center" type="submit">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                class="bi bi-search me-1" viewBox="0 0 16 16">
-                <path
-                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
-              </svg>
-              Search
-            </button>
-          </form>
-          <div class="d-flex align-items-center ms-lg-1 mt-2 mt-lg-0">
-            <button class="btn me-1" type="button">
-              <a href="sign.html" target="_blank" class="text-decoration-none">
-                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
-                  class="bi bi-person-add" viewBox="0 0 16 16">
-                  <path
-                    d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m.5-5v1h1a.5.5 0 0 1 0 1h-1v1a.5.5 0 0 1-1 0v-1h-1a.5.5 0 0 1 0-1h1v-1a.5.5 0 0 1 1 0m-2-6a3 3 0 1 1-6 0 3 3 0 0 1 6 0M8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4" />
-                  <path
-                    d="M8.256 14a4.5 4.5 0 0 1-.229-1.004H3c.001-.246.154-.986.832-1.664C4.484 10.68 5.711 10 8 10q.39 0 .74.025c.226-.341.496-.65.804-.918Q8.844 9.002 8 9c-5 0-6 3-6 4s1 1 1 1z" />
-                </svg>
-              </a>
-            </button>
-            <button class="btn" type="button">
-              <a href="login.html" target="_blank" class="text-decoration-none">
-                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
-                  class="bi bi-box-arrow-in-left" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd"
-                    d="M10 3.5a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 1 1 0v2A1.5 1.5 0 0 1 9.5 14h-8A1.5 1.5 0 0 1 0 12.5v-9A1.5 1.5 0 0 1 1.5 2h8A1.5 1.5 0 0 1 11 3.5v2a.5.5 0 0 1-1 0z" />
-                  <path fill-rule="evenodd"
-                    d="M4.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H14.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708z" />
-                </svg>
-              </a>
-            </button>
-          </div>
+        </div>
+        <div
+          class="footer-copyright d-flex align-items-center justify-content-between">
+          <p class="#">Copyright &#xA9;2024 <a href="#index.html"
+              class="text-decoration-none">Watch Heaven</a>
+          </p>
+
+          <ul class="nav mb-1">
+            <li><a href="index.html" class="text-decoration-none">Home</a></li>
+            <li><a href="#about" class="text-decoration-none">About</a></li>
+            <li><a href="#contact" class="text-decoration-none">Countact
+                Us</a></li>
+          </ul>
         </div>
       </div>
-    </nav>
+    </footer>
 
-    <!-- Navbar code end  -->
+    <!-- footer code end -->
 
-    <!-- Heading start  -->
+    <!-- Script code start -->
 
-    <div class="container mt-3">
-      <div class="text-center">
-        <div class="h2">
-          Welcome to Watch Heaven: Where Time Meets Elegance!
-        </div>
-        <div class="h4">Discover Your Perfect Watch Today!</div>
-        <p>
-          At Watch Heaven, we believe that a watch is more than just an
-          accessory—it's a statement of style, precision, and personality.
-          Whether you're looking for a classic design, a modern smartwatch, or
-          a luxury timepiece, we have something for everyone.
-        </p>
-      </div>
-    </div>
-
-
-    <!-- Heading end  -->
-
-    <!-- slide page start -->
-
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1500">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-          aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-          aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-          aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="./assets/img/pixelcut-export.png" class="d-block w-100" alt="No image" />
-        </div>
-        <div class="carousel-item">
-          <img src="./assets/img/pixelcut-export.png" class="d-block w-100" alt="No image" />
-        </div>
-        <div class="carousel-item">
-          <img src="./assets/img/pixelcut-export.png" class="d-block w-100" alt="No image" />
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-
-
-    <!-- slider page end -->
-
-    <!-- Collection page start  -->
-
-    <div class="container text-center">
-      <!-- Luxury Watches cart start  -->
-
-      <div id="Luxury">
-        <div class="text-center">
-          <div class="h1">Luxury Watch</div>
-        </div>
-        <div class="container-fluid d-flex flex-wrap justify-content-center gap-4">
-          <div class="card" style="width: 18rem">
-            <img src="./assets/img/luxury watch 1.jpeg" class="card-img-top" alt="No Image" />
-            <div class="card-body">
-              <h5 class="card-title">Luxury Watch</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem">
-            <img src="./assets/img/luxury watch 1.jpeg" class="card-img-top" alt="No Image" />
-            <div class="card-body">
-              <h5 class="card-title">Luxury Watch</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem">
-            <img src="./assets/img/luxury watch 1.jpeg" class="card-img-top" alt="No Image" />
-            <div class="card-body">
-              <h5 class="card-title">Luxury Watch</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem">
-            <img src="./assets/img/luxury watch 1.jpeg" class="card-img-top" alt="No Image" />
-            <div class="card-body">
-              <h5 class="card-title">Luxury Watch</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Luxury Watches cart end  -->
-
-      <!-- Smart Watches start  -->
-
-      <div id="Smart">
-        <div class="text-center">
-          <div class="h1">Smart Watches</div>
-        </div>
-        <div class="container-fluid d-flex flex-wrap justify-content-center gap-4">
-          <div class="card" style="width: 18rem">
-            <img src="./assets/img/smart watch.jpeg" class="card-img-top" alt="No Image" />
-            <div class="card-body">
-              <h5 class="card-title">Smart Watches</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem">
-            <img src="./assets/img/smart watch.jpeg" class="card-img-top" alt="No Image" />
-            <div class="card-body">
-              <h5 class="card-title">Smart Watches</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem">
-            <img src="./assets/img/smart watch.jpeg" class="card-img-top" alt="No Image" />
-            <div class="card-body">
-              <h5 class="card-title">Smart Watches</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem">
-            <img src="./assets/img/smart watch.jpeg" class="card-img-top" alt="No Image" />
-            <div class="card-body">
-              <h5 class="card-title">Smart Watches</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Smart Watches end  -->
-
-      <!-- Sport Watches start  -->
-
-      <div id="Sport">
-        <div class="text-center">
-          <div class="h1">Sport Watches</div>
-        </div>
-        <div class="container-fluid d-flex flex-wrap justify-content-center gap-4">
-          <div class="card" style="width: 18rem">
-            <img src="./assets/img/sport watch.jpeg" class="card-img-top" alt="No Image" />
-            <div class="card-body">
-              <h5 class="card-title">Sport Watches</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem">
-            <img src="./assets/img/sport watch.jpeg" class="card-img-top" alt="No Image" />
-            <div class="card-body">
-              <h5 class="card-title">Sport Watches</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem">
-            <img src="./assets/img/sport watch.jpeg" class="card-img-top" alt="No Image" />
-            <div class="card-body">
-              <h5 class="card-title">Sport Watches</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem">
-            <img src="./assets/img/sport watch.jpeg" class="card-img-top" alt="No Image" />
-            <div class="card-body">
-              <h5 class="card-title">Sport Watches</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Sport Watches end  -->
-
-      <!-- Casual Watches start  -->
-
-      <div id="Casual">
-        <div class="text-center">
-          <div class="h1">Casual Watch</div>
-        </div>
-        <div class="container-fluid d-flex flex-wrap justify-content-center gap-4">
-          <div class="card" style="width: 18rem">
-            <img src="./assets/img/casual watch.jpeg" class="card-img-top" alt="No Image" />
-            <div class="card-body">
-              <h5 class="card-title">Casual Watch</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem">
-            <img src="./assets/img/casual watch.jpeg" class="card-img-top" alt="No Image" />
-            <div class="card-body">
-              <h5 class="card-title">Casual Watch</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem">
-            <img src="./assets/img/casual watch.jpeg" class="card-img-top" alt="No Image" />
-            <div class="card-body">
-              <h5 class="card-title">Casual Watch</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem">
-            <img src="./assets/img/casual watch.jpeg" class="card-img-top" alt="No Image" />
-            <div class="card-body">
-              <h5 class="card-title">Casual Watch</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Casual Watches end  -->
-    </div>
-    <!-- Collection page end  -->
-
-    <!-- About & Contact -->
-
-    <div class="container">
-      <!-- About code start  -->
-
-
-      <div class="d-flex flex-column" id="about">
-        <div class="h1 mt-3 text-center">About us</div>
-        <div class="para text-center">
-          Welcome to Watch Heaven! We specialize in providing high-quality, stylish, and affordable watches for every
-          occasion. Our mission is to deliver the perfect blend of craftsmanship and design, ensuring that each
-          timepiece
-          is
-          a work of art.
-        </div>
-      </div>
-
-      <!-- About code end  -->
-
-
-      <!-- Contact us code Start  -->
-
-      <div id="contact" class="d-flex justify-content-center">
-        <div class="form w-75 ">
-          <div class=" h1 text-center ">
-            Contact Us
-          </div>
-          <form action="#">
-            <div class="input-group mb-3 ">
-              <span class="input-group-text" id="basic-addon1">@</span>
-              <input type="text" class="form-control" placeholder="Username" aria-label="Username"
-                aria-describedby="basic-addon1">
-            </div>
-
-            <div class="input-group mb-3">
-              <input type="text" class="form-control" placeholder="Recipient's username"
-                aria-label="Recipient's username" aria-describedby="basic-addon2">
-              <span class="input-group-text" id="basic-addon2">@example.com</span>
-            </div>
-            <div class="form-floating">
-              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
-                style="height: 100px"></textarea>
-              <label for="floatingTextarea2">Comments</label>
-              <div class="d-grid  col-2 mt-3 mb-3">
-                <button class="btn btn-primary" type="button">Submit</button>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-
-    <!-- Contact us code End  -->
-
-
-  </div>
-
-
-  <!-- main code end  -->
-  <!-- footer code start -->
-
-
-  <footer class="text-bg-dark">
-    <div class="container-fluid w-100">
-      <div class="footer-descp text-center">
-        <div class="h2 text-white">Watch Heaven</div>
-        <div class="p text-white">
-          We provide high-quality, stylish, and affordable watches for every occasion. Explore our collection and
-          find your perfect timepiece. With exceptional craftsmanship and timeless designs, our watches combine
-          elegance and reliability to suit your personal style.
-        </div>
-        <ul class="icon mt-3 list-unstyled d-flex justify-content-center">
-          <li class="mx-2"><a href="#" class="text-decoration-none text-white">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-facebook"
-                viewBox="0 0 16 16">
-                <path
-                  d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
-              </svg>
-            </a></li>
-          <li class="mx-2"><a href="#" class="text-decoration-none text-white">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-twitter-x"
-                viewBox="0 0 16 16">
-                <path
-                  d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
-              </svg>
-            </a></li>
-          <li class="mx-2"><a href="#" class="text-decoration-none text-white">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-whatsapp"
-                viewBox="0 0 16 16">
-                <path
-                  d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
-              </svg>
-            </a></li>
-          <li class="mx-2"><a href="#" class="text-decoration-none text-white">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-instagram"
-                viewBox="0 0 16 16">
-                <path
-                  d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.598-.92c-.11-.282-.24-.705-.275-1.485-.039-.843-.046-1.096-.046-3.232s.007-2.389.046-3.232c.035-.78.166-1.203.275-1.485.145-.373.319-.64.599-.92.281-.28.546-.453.92-.598.281-.11.705-.24 1.485-.275.843-.039 1.096-.046 3.232-.046zM8 3.272a4.727 4.727 0 1 0 0 9.454 4.727 4.727 0 0 0 0-9.454zm0 8.125a3.398 3.398 0 1 1 0-6.796 3.398 3.398 0 0 1 0 6.796zM12.023 3.977a1.072 1.072 0 1 0 0-2.144 1.072 1.072 0 0 0 0 2.144z" />
-              </svg>
-            </a>
-          </li>
-          <li class="mx-2"><a href="#" class="text-decoration-none text-white">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-linkedin"
-                viewBox="0 0 16 16">
-                <path
-                  d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
-              </svg>
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div class="footer-copyright d-flex align-items-center justify-content-between">
-        <p class="#">Copyright &#xA9;2024 <a href="#index.html" class="text-decoration-none">Watch Heaven</a>
-        </p>
-
-        <ul class="nav mb-1">
-          <li><a href="index.html" class="text-decoration-none">Home</a></li>
-          <li><a href="#about" class="text-decoration-none">About</a></li>
-          <li><a href="#contact" class="text-decoration-none">Countact Us</a></li>
-        </ul>
-      </div>
-    </div>
-  </footer>
-
-
-
-
-  <!-- footer code end -->
-
-
-  <!-- Script code start -->
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
-  <!-- Script code end -->
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+    <!-- Script code end -->
+  </body>
 
 </html>
